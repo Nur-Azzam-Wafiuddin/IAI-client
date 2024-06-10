@@ -1,0 +1,186 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3671, -7.7972]
+        },
+        "properties": {
+          "location": "Malioboro",
+          "air_quality_index": 78,
+          "pm10": 30,
+          "pm2_5": 18,
+          "o3": 42,
+          "no2": 15,
+          "so2": 7,
+          "co": 0.5,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.4093, -7.7715]
+        },
+        "properties": {
+          "location": "Kota Gede",
+          "air_quality_index": 82,
+          "pm10": 35,
+          "pm2_5": 20,
+          "o3": 45,
+          "no2": 17,
+          "so2": 9,
+          "co": 0.6,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3705, -7.7828]
+        },
+        "properties": {
+          "location": "Tugu Jogja",
+          "air_quality_index": 90,
+          "pm10": 40,
+          "pm2_5": 25,
+          "o3": 50,
+          "no2": 20,
+          "so2": 10,
+          "co": 0.7,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3513, -7.8078]
+        },
+        "properties": {
+          "location": "Gamping",
+          "air_quality_index": 85,
+          "pm10": 38,
+          "pm2_5": 23,
+          "o3": 47,
+          "no2": 18,
+          "so2": 8,
+          "co": 0.65,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.4017, -7.7324]
+        },
+        "properties": {
+          "location": "Sleman",
+          "air_quality_index": 75,
+          "pm10": 29,
+          "pm2_5": 17,
+          "o3": 40,
+          "no2": 14,
+          "so2": 6,
+          "co": 0.5,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.4566, -7.8688]
+        },
+        "properties": {
+          "location": "Prambanan",
+          "air_quality_index": 88,
+          "pm10": 37,
+          "pm2_5": 22,
+          "o3": 48,
+          "no2": 19,
+          "so2": 9,
+          "co": 0.68,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3353, -7.7854]
+        },
+        "properties": {
+          "location": "Kasihan",
+          "air_quality_index": 80,
+          "pm10": 33,
+          "pm2_5": 19,
+          "o3": 43,
+          "no2": 16,
+          "so2": 7,
+          "co": 0.55,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3696, -7.8005]
+        },
+        "properties": {
+          "location": "Pakualaman",
+          "air_quality_index": 84,
+          "pm10": 36,
+          "pm2_5": 21,
+          "o3": 46,
+          "no2": 17,
+          "so2": 8,
+          "co": 0.62,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.4194, -7.7763]
+        },
+        "properties": {
+          "location": "Umbulharjo",
+          "air_quality_index": 89,
+          "pm10": 39,
+          "pm2_5": 24,
+          "o3": 49,
+          "no2": 19,
+          "so2": 9,
+          "co": 0.7,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3601, -7.7996]
+        },
+        "properties": {
+          "location": "Ngampilan",
+          "air_quality_index": 77,
+          "pm10": 32,
+          "pm2_5": 18,
+          "o3": 41,
+          "no2": 15,
+          "so2": 7,
+          "co": 0.5,
+          "timestamp": "2024-06-10T10:00:00Z"
+        }
+      }
+    ]
+  }
+  
