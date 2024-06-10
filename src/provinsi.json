@@ -1,0 +1,208 @@
+[
+	{
+		"ID": 1,
+		"kode": 52,
+		"Propinsi": "NUSATENGGARA BARAT",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 2,
+		"kode": 75,
+		"Propinsi": "GORONTALO",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 3,
+		"kode": 74,
+		"Propinsi": "SULAWESI TENGGARA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 4,
+		"kode": 34,
+		"Propinsi": "DAERAH ISTIMEWA YOGYAKARTA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 5,
+		"kode": 33,
+		"Propinsi": "JAWA TENGAH",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 6,
+		"kode": 36,
+		"Propinsi": "BANTEN",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 7,
+		"kode": 35,
+		"Propinsi": "JAWA TIMUR",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 8,
+		"kode": 82,
+		"Propinsi": "MALUKU UTARA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 9,
+		"kode": 81,
+		"Propinsi": "MALUKU",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 10,
+		"kode": 73,
+		"Propinsi": "SULAWESI SELATAN",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 11,
+		"kode": 31,
+		"Propinsi": "DKI JAKARTA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 12,
+		"kode": 32,
+		"Propinsi": "JAWA BARAT",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 13,
+		"kode": 91,
+		"Propinsi": "PAPUA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 14,
+		"kode": 53,
+		"Propinsi": "NUSA TENGGARA TIMUR",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 15,
+		"kode": 51,
+		"Propinsi": "BALI",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 16,
+		"kode": 14,
+		"Propinsi": "RIAU",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 17,
+		"kode": 21,
+		"Propinsi": "KEPULAUAN RIAU",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 18,
+		"kode": 76,
+		"Propinsi": "SULAWESI BARAT",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+        "ID": 19,
+        "kode": 72,
+        "Propinsi": "SULAWESI TENGAH",
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+    },
+	{
+		"ID": 20,
+		"kode": 71,
+		"Propinsi": "SULAWESI UTARA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 21,
+		"kode": 92,
+		"Propinsi": "PAPUA BARAT",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 22,
+		"kode": 12,
+		"Propinsi": "SUMATERA UTARA",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 23,
+		"kode": 19,
+		"Propinsi": "BANGKA BELITUNG",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 24,
+		"kode": 13,
+		"Propinsi": "SUMATERA BARAT",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 25,
+		"kode": 16,
+		"Propinsi": "SUMATERA SELATAN",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 26,
+		"kode": 15,
+		"Propinsi": "JAMBI",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 27,
+		"kode": 18,
+		"Propinsi": "LAMPUNG",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 28,
+		"kode": 17,
+		"Propinsi": "BENGKULU",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+		"ID": 29,
+		"kode": 11,
+		"Propinsi": "DI. ACEH",
+		"SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
+	},
+	{
+        "ID": 30,
+        "kode": 61,
+        "Propinsi": "KALIMANTAN BARAT",
+        "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
+    },
+	{
+        "ID": 31,
+        "kode": 62,
+        "Propinsi": "KALIMANTAN TENGAH",
+        "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
+    },
+	{
+		"ID": 32,
+		"kode": 63,
+		"Propinsi": "KALIMANTAN SELATAN",
+		"SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
+	},
+	{
+		"ID": 33,
+		"kode": 64,
+		"Propinsi": "KALIMANTAN TIMUR",
+		"SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
+	},
+	{
+		"ID": 34,
+		"kode": 65,
+		"Propinsi": "KALIMANTAN UTARA",
+		"SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
+	}
+]
+
+		
