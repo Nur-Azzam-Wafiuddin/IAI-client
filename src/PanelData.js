@@ -29,19 +29,19 @@ const PanelData = ({ properties }) => {
       {/* onosoco */}
       <div className="flex justify-between font-bold text-center gap-4 mb-4">
         <div>
-          <div className="bg-orange-400 w-min-14 p-4 rounded-full text-white">{o3}</div>
+          <div className="bg-orange-400 w-14 p-4 rounded-full text-white">{o3}</div>
           <div className="text-xl">O3</div>
         </div>
         <div>
-          <div className="bg-amber-400 w-min-14 w-full p-4 rounded-full text-white">{no2}</div>
+          <div className="bg-amber-400 w-14 p-4 rounded-full text-white">{no2}</div>
           <div className="text-xl">NO2</div>
         </div>
         <div>
-          <div className="bg-yellow-400 w-min-14 w-full p-4 rounded-full text-white">{so2}</div>
+          <div className="bg-yellow-400 w-14 p-4 rounded-full text-white">{so2}</div>
           <div className="text-xl">SO2</div>
         </div>
         <div>
-          <div className="bg-lime-400 w-min-14 w-full p-4 rounded-full text-white">{co}</div>
+          <div className="bg-lime-400 w-14 p-4 rounded-full text-white">{co}</div>
           <div className="text-xl">CO</div>
         </div>
       </div>
