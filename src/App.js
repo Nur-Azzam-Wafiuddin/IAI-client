@@ -7,7 +7,7 @@ import MapMenu from "./MapMenu";
 import axios from "axios"; // Import axios for HTTP requests
 
 
-const API_URL = "http://localhost:4000/geodata"; // Updated API endpoint
+const API_URL = "https://iai-be-deploy.vercel.app/api/hello"; // Updated API endpoint
 
 function App() {
   const mapRef = useRef(null);
