@@ -1,12 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
-import socketIOClient from "socket.io-client";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import DynamicMarker from "./DynamicMarker";
 import PanelData from "./PanelData";
 import MapMenu from "./MapMenu";
+import axios from "axios"; // Import axios for HTTP requests
 
-const ENDPOINT = "http://localhost:4000";
+
+const API_URL = "http://localhost:4000/geodata"; // Updated API endpoint
 
 function App() {
   const mapRef = useRef(null);
@@ -18,15 +19,20 @@ function App() {
   const [toggleDisplayData, setToggleDisplayData] = useState(false);
 
   useEffect(() => {
-    const socket = socketIOClient(ENDPOINT);
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(API_URL);
+        setData(response.data.features);
+        setLoading(true);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
 
-    socket.on("geoinfo", (receivedData) => {
-      setData(receivedData.features);
-      setLoading(true);
-    });
+    const fetchDataInterval = setInterval(fetchData, 3000); // Fetch data every 3 seconds
 
     return () => {
-      socket.disconnect();
+      clearInterval(fetchDataInterval);
     };
   }, []);
 
