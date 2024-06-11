@@ -1,10 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import DynamicMarker from "./DynamicMarker";
 import PanelData from "./PanelData";
 import MapMenu from "./MapMenu";
 import axios from "axios"; // Import axios for HTTP requests
+import UserMarker from "./UserMarker";
 
 
 const API_URL = "https://iai-be-deploy.vercel.app/api/hello"; // Updated API endpoint
@@ -17,13 +18,15 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [displayDataIndex, setDisplayDataIndex] = useState(0);
   const [toggleDisplayData, setToggleDisplayData] = useState(false);
+  const [userPosition, setUserPosition] = useState([0, 0]);
+
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get(API_URL);
         setData(response.data.features);
-        setLoading(true);
+        setLoading(true)
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -36,6 +39,22 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          setUserPosition([latitude, longitude]);
+        },
+        (error) => {
+          console.error('Error obtaining location', error);
+        }
+      );
+    } else {
+      console.error('Geolocation is not supported by this browser.');
+    }
+  }, []);
+
   const handleClick = (index) => {
     console.log("Marker clicked:", index);
     setDisplayDataIndex(index);
@@ -43,7 +62,7 @@ function App() {
 
   return (
     <div>
-      <MapMenu mapRef={mapRef}/>
+      <MapMenu mapRef={mapRef} userPosition={userPosition}/>
       {loading && (
         <div className={`absolute z-50 ${toggleDisplayData ? '':'-translate-x-96 opacity-0' } top-1/2 -translate-y-1/2 duration-200 shadow-lg ml-10`}>
           <PanelData properties={data[displayDataIndex].properties} />
@@ -74,6 +93,8 @@ function App() {
                   setToggleDisplayData={setToggleDisplayData}
                 />
               ))}
+            <UserMarker position={userPosition}/>
+
           </MapContainer>
         </div>
       </div>
