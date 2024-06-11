@@ -1,23 +1,11 @@
 import React from 'react';
 import { Popup, Marker } from 'react-leaflet';
 import L from 'leaflet';
+import { AQIColor } from './helperfunction';
 
 const DynamicMarker = ({ position, index, properties, handleClick, setToggleDisplayData }) => {
 
-    const interpolateColor = (value) => {
-        const min = 50;
-        const max = 150;
-
-        const percentage = (value - min) / (max - min);
-
-        const r = Math.round(255 * percentage);
-        const g = Math.round(255 * (1 - percentage));
-        const b = 0;
-
-        return `rgb(${r}, ${g}, ${b})`;
-    };
-
-    const markerColor = interpolateColor(properties.air_quality_index);
+    const markerColor = AQIColor(properties.air_quality_index);
 
     const CustomMarkerIcon = L.divIcon({
         className: 'custom-marker-icon',

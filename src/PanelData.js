@@ -1,4 +1,5 @@
 import React from "react";
+import { AQIColor } from "./helperfunction";
 
 const PanelData = ({ properties }) => {
   // Destructure properties from props if needed
@@ -6,11 +7,13 @@ const PanelData = ({ properties }) => {
 
   const { location, air_quality_index, pm10, pm2_5, o3, no2, so2, co, timestamp } = properties;
 
+  const bgAQIcolor = AQIColor(air_quality_index)
+
   return (
     <div className="w-9/10 bg-white rounded-lg p-4">
       <h2 className="text-xl text-center font-bold mb-2">{location}</h2>
       {/* air quality */}
-      <div className="text-center py-2 bg-sky-500 rounded-md mb-2 text-white">
+      <div className="text-center py-2 rounded-md mb-2 text-white" style={{backgroundColor: bgAQIcolor}}>
         Air Quality Index
         <div className="white font-bold text-5xl"> {air_quality_index}</div>
       </div>

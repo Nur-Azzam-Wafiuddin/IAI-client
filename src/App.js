@@ -35,14 +35,12 @@ function App() {
 
   return (
     <div>
-      <div className="absolute z-50 left-1/2 -translate-x-1/2 text-white rounded-lg bg-blue-500 text-3xl font-bold p-4">Data Stream App</div>{" "}
-      {loading && toggleDisplayData ? (
-        <div className="absolute z-50 top-1/2 -translate-y-1/2 shadow-lg ml-10">
+      {loading && (
+        <div className={`absolute z-50 ${toggleDisplayData ? '':'-translate-x-96 opacity-0' } top-1/2 -translate-y-1/2 duration-200 shadow-lg ml-10`}>
           <PanelData properties={data[displayDataIndex].properties} />
         </div>
-      ) : (
-        <></>
-      )}
+        )
+      }
       <div class="w-full h-screen relative z-0">
         <div style={{ height: "400px", width: "100wh" }}>
           <MapContainer center={[-7.7854, 110.3353]} zoom={10} scrollWheelZoom={true} style={{ height: "100vh", width: "100wh" }}>
